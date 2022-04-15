@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div_container{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*div 01*/
+.div_01{
+width: 40%;
+margin: 2%;
+}
+/*imagen*/
+.div_01 img{
+width: 25vw;
+padding-left: 15%;
+}
+
+/*div 02*/
+.div_02{
+    width: 60%;
+    padding: 3%;
+}
+.div_02 h1{
+    font-size: 5vw;
+    border-bottom: solid 3px  crimson;
+    color: aliceblue;
+}
+.div_02 p{
+    font-size: 3vw;
+    margin: 7%;
+    color: aliceblue;
+}
+.div_02 a{
+    text-decoration: none;
+    color: rgb(163, 163, 251);
+}
+.div_02 b{
+    background-color: rgb(84, 84, 84);
+    color: rgb(255, 243, 243);
+}
+
+/*sobre mi*/
+
+#div_contenedor{
+    padding-top: 10%;
+    display: flex;
+    background-color: #063A42;
+    padding-bottom: 10%;
+}
+
+/* primer div sobre mi*/
+.primer_div{
+    width: 50%;
+    border-right: 5px  solid crimson;
+}
+.primer_div h2{
+    font-size: 4vw;
+    text-align: center;
+    margin: 5% 10%;
+    background-color:  rgb(206, 246, 246);
+    color: blue;
+}
+.primer_div h3{
+    font-size: 4vw;
+    text-align: center;
+    margin:25% 10% 15%;
+    background-color: rgb(206, 246, 246);
+    color: blue;
+}
+.primer_div p{
+    font-size: 3vw;
+    text-align: center;
+    margin: 5%;
+    color: aliceblue;
+}
+
+.primer_div b{
+    background-color: rgb(76, 57, 57);
+    color: rgb(255, 243, 243);
+    margin-left: 35%;
+    font-size: 4vw;
+}
+/* segundo div habilidades*/
+.segundo_div{
+    width: 50%;
+    float: right;
+}
+.segundo_div h4{
+    font-size: 4vw;
+    text-align: center;
+    margin:5% 10%;
+    background-color: rgb(206, 246, 246);
+    color: blue;
+}
+.segundo_div p{
+    font-size: 3vw;
+    text-align: center;
+    margin: 5%;
+    color: aliceblue;
+}
+.segundo_div h5{
+    font-size: 4vw;
+    text-align: center;
+    margin:5% 10%;
+    background-color: rgb(206, 246, 246);
+    color: blue;
+}
+.segundo_div iframe{
+    width: 90%;
+    height: 50vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+}
+.segundo_div a{
+    font-size: 3vw;
+    margin-left: 30%;
+    margin-right: 25%;
+    background-color: rgb(160, 244, 160);
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+/*redes sociales*/
+.redes_sociales p{
+    color: black;
+    background-color: rgb(246, 240, 189);
+    margin-top: 15%;
+}
+.redes_sociales a{
+    display: block;
+    font-size: 3vw;
+    color: aliceblue;
+    text-decoration: none;
+     margin-left: 15%;
+     padding-top: 5%;
+}
+
+.enlaces_redes{
+display: flex;
+padding-bottom: 15%;
+padding-top: 10%;
+justify-content: center;
+}
+ 
+.imagenes_logo{
+   display: flex; 
+   justify-content: center;
+}
+.imagen01{
+    width: 18%;
+    padding-left: 10%;
+}
+.imagen02{
+    width: 18%;
+    padding-left: 9%;
+}
+
+/*habilidades*/
+#habilidades{
+background-color: #063A42;
+font-size: 4vw;
+color: aliceblue;
+text-align: center;
+}
+.habilidades_texto{
+background-color: rgb(76, 57, 57);;
+margin-left: 10%;
+margin-right: 10%;
+color: rgb(129, 194, 250);
+margin-bottom: 5%;
+}
+.logo_html p{
+    margin-top: 5%;
+}
+.logo_html img{
+width: 20%;
+padding: 5%;
+}
+.logo_css img{
+    padding: 5%;
+    width: 40%;
+}
+
+.logo_css p{
+    margin-top: 5%;
+}
+.logo_js img{
+width: 15%;
+margin-top: 5%;
+margin-bottom: 10%;
+}
+.basico{
+    color: rgb(57, 57, 247);
+    background-color: aliceblue;
+   margin: 3% 30% 0%;
+   text-shadow: 3px 3px 3px rgb(226, 251, 0);
+}
+
+.avanzado{
+    color: rgb(57, 57, 247);
+    background-color: aliceblue;
+   margin: 30% 30% 0%;
+   text-shadow: 3px 3px 3px rgb(226, 251, 0);
+}
+
+/*pie de pagina*/
+footer{
+    background-color: rgb(2, 121, 121);
+    font-size: 5vw;
+    text-align: center;
+    color: aliceblue;
+    padding: 5%;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    text-shadow: 3px 3px 3px red;
+}
+footer b{
+    background-color: rgb(241, 241, 242);
+    color: black;
+    border: 5px solid blue;
+}
+footer p{
+    margin-bottom: 2%;
+}
